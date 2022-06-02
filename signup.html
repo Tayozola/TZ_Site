@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title> Join TayoZola</title>
+    <link rel="stylesheet" href="signup.css">
+    <script src="https://cdnjs.cloudflare.com/ajax./libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="home.html"><img src="Logos\1.png">
+            <div class="nav-links" id="navLinks"> 
+                <ul> 
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <form action="signin.html" class="login-form">
+        <h1>SIGN UP</h1>
+            <!---Register to TAYOZOLA-->
+            <div class="txtb">
+                <input type="text">
+                <span data-placeholder="First Name"></span>
+            </div>
+
+            <div class="txtb">
+                <input type="text">
+                <span data-placeholder="Last Name"></span>
+            </div>
+
+            <div class="txtb">
+                <input type="text">
+                <span data-placeholder="Email Address"></span>
+            </div>
+
+            <div class="txtb">
+                <input type="Password">
+                <span data-placeholder="Enter Password"></span>
+            </div>
+
+            <div class="txtb">
+                <input type="Password">
+                <span data-placeholder="Re enter Password"></span>
+            </div>
+
+            <input type="submit" class="logbtn" value="Login">
+
+            <div class="bottom-text">
+                Have an account? <a href="signin.html">Sign In</a>
+
+            </div>
+    </form>
+
+    
+    <script type="text/javascript">
+        $(".txtb input").on("focus", function(){
+            $(this).addClass("focus");
+        });
+
+        $(".txtb input").on("blur", function(){
+            if($(this).val() == "")
+            $(this).removeclass("focus");
+        });
+    </script>
+</body>
+
+
+</html>
