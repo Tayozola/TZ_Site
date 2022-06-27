@@ -11,7 +11,7 @@
     width: 100%;
     color: #ffffff;
     font-size:  20px;
-    background-image:  url(images/f1/pexels-maxime-francis-2246476.jpg);
+    background-image:  url(images/f1/pexels-valdemaras-d-1647962.jpg);
     background-position: center;
     background-size:cover;
     position:relative;
@@ -147,7 +147,7 @@ body{
   }
   .content .link-boxes .box .link_name{
     color: #fff;
-    font-size: 38px;
+    font-size: 28px;
     font-weight: 400;
     margin-bottom: 10px;
     position: relative;
