@@ -297,7 +297,7 @@ body{
       Width: 70px;
     }
   }
-  @media (max-width: 520px){
+  @media (max-width: 375px){
     footer::before{
       top: 145px;
     }
