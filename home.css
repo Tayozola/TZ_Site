@@ -44,7 +44,7 @@ nav img{
         z-index: 2;
     }
     nav img{
-        Width: 150px;
+        Width: 60px;
         left: 5%;
         position: absolute;
     }
@@ -89,7 +89,7 @@ nav img{
     align-items: center;
   }
   nav img{
-    Width: 70px;
+    Width: 60px;
   }
 }
 @media (max-width: 600px){
